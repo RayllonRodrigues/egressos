@@ -1,0 +1,134 @@
+/* Estilos personalizados */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#map-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background: url('img/header-bg.png') no-repeat center center;
+    background-size: cover;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.campus {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.campus:hover {
+    background: darkred;
+}
+
+#info {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+
+.form-label, .form-select {
+    color: black;           /* Cor do texto */
+    background-color: transparent; /* Fundo transparente */
+    border: 1px solid #ccc;  /* Borda suave */
+}
+
+.form-select:focus {
+    outline: none;           /* Remove o contorno azul ao focar no campo */
+    border-color: #5e99d5;   /* Cor de borda ao focar */
+}
+
+.form-select option {
+    color: black;           /* Cor do texto nas opções */
+    background-color: white; /* Cor de fundo das opções */
+}
+
+.bg-green {
+    background-color: #28a745;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.text-white {
+    color: white;
+}
+
+.header-container {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link.active {
+    color: #28a745 !important;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body i {
+    color: #17a2b8;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.card-body .btn {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
